@@ -1,0 +1,101 @@
+.footer {
+    background-color: #1f1e1e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text-div-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text-div {
+    background-color: #373736;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+    border-radius: 20px;
+    padding: 0 8px 0 20px;
+    margin: 55px 0;
+}
+
+.main-text {
+    font-size: 7.5vw;
+    vertical-align: middle;
+    padding-top: 8px;
+    white-space: nowrap;
+}
+
+.hop-on-a-journey-img{
+    width: clamp(50px, 9vw, 190px); /* min size, preferred size, max size */
+    height: auto; /* keeps aspect ratio */
+    vertical-align: top;
+}
+
+.contact-links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.contact-us-column {
+    margin-top: 5px;
+    margin-left: 9vw;
+    flex: 2;
+}
+
+.links-column {
+    margin-top: 30px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.contact-us-column h2 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.contact-us-column p {
+    font-size: 25px;
+    line-height: 32px;
+    margin-top: 10px;
+}
+
+.links-column ul {
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+}
+
+.links-column ul li {
+    font-size: 25px;
+}
+
+.links-column ul li a:hover {
+    color: #ed2024; /* hover effect */
+}
+
+.contact-us-column a:hover {
+    color: #ed2024;
+}
+
+.footer-social {
+    text-align: start;
+    margin-top: 40px;
+}
+
+.social-link-img {
+    width: 35px;
+}
+
+.footer-social a {
+    margin-right: 5px;
+}
+
+

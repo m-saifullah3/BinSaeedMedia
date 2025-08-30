@@ -1,0 +1,29 @@
+*{  
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box; 
+}
+
+html {            
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

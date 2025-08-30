@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin: 55px 50px;
+
+    color: #231f20;
+
+    border: 1.2px solid black;
+    border-radius: 25px;
+
+    height: 50px;
+}
+
+.binsaeed-logo {
+    width: 40px;
+    margin-top: 5px;
+}
+
+.header-right-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+}
+
+.category {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+.active {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}

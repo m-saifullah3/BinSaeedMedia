@@ -1,3 +1,7 @@
+.header-div {
+    padding: 45px 50px;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -6,7 +10,6 @@
     padding-left: 15px;
     padding-right: 15px;
 
-    margin: 55px 50px;
 
     color: #231f20;
 

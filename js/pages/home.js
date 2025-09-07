@@ -1,4 +1,5 @@
 const overlay = document.querySelector('.overlay');
+const headerDiv = document.querySelector('.header-div');
 const projectDiv = document.querySelector('.project-info-div');
 
 document.querySelectorAll(".js-project-img").forEach(project => {
@@ -12,8 +13,15 @@ document.querySelectorAll(".js-project-img").forEach(project => {
             behavior: 'smooth' // smooth scroll
         });
     });
+})
+
+//Make the Project info block disappear when the header div is clicked
+headerDiv.addEventListener('click', () => {
+    projectDiv.style.display = 'none'; // hide the project div
+    overlay.style.display = 'none'; // hide overlay as well
 });
 
+//Make the Project info block disappear when the overlay div is clicked
 overlay.addEventListener('click', () => {
     projectDiv.style.display = 'none'; // hide the project div
     overlay.style.display = 'none'; // hide overlay as well

@@ -253,6 +253,16 @@
     background-color: white;
     height: 88%;
     border-radius: 130px 130px 0px 0px;
+    padding: 40px;
+}
+
+.popup-info {
+    padding: 30px 0px 0px 50px;
+}
+
+.popup-heading {
+    font-size: 60px;
+    font-weight: 600;
 }
 
 /*

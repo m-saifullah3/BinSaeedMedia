@@ -1,6 +1,8 @@
 const overlay = document.querySelector('.overlay');
 const headerDiv = document.querySelector('.header-div');
 const projectDiv = document.querySelector('.project-info-div');
+const projects = document.querySelectorAll(".js-project-img"); 
+const popupHeading = document.querySelector('.popup-heading');
 
 document.querySelectorAll(".js-project-img").forEach(project => {
     project.addEventListener("click", () => {
@@ -33,4 +35,12 @@ document.addEventListener("keydown", (e) => {
         document.querySelector(".project-info-div").style.display = "none";
         document.querySelector(".overlay").style.display = "none";
     }
+});
+
+//To display the text on the popup depending on which project is clicked
+projects.forEach(img => {
+  img.addEventListener("click", () => {
+    popupHeading.textContent = img.dataset.title;
+    popupHeading.style.display = "flex";
+  });
 });
